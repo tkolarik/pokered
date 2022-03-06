@@ -20,10 +20,10 @@ _Route1Text_1cae8::
 	text_end
 
 _Route1Text_1caee::
-	text "We also carry"
-	line "# BALLs for"
-	cont "catching #MON!"
-	done
+	text "Here you go, Have"
+	line "another Potion"
+	cont "on the house!"
+	prompt
 
 _Route1Text_1caf3::
 	text "You have too much"

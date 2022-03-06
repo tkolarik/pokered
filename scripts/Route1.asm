@@ -22,6 +22,12 @@ Route1Text1:
 	jr .done
 .got_item
 	ld hl, Route1Text_1caee
+	call PrintText
+	lb bc, POTION, 1
+	call GiveItem
+	jr nc, .bag_full
+	ld hl, Route1Text_1cae8
+	jr .done
 .done
 	call PrintText
 	jp TextScriptEnd
