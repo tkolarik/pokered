@@ -369,7 +369,7 @@ _CinnabarQuizQuestionsText5::
 
 _CinnabarQuizQuestionsText6::
 	text "TM28 contains"
-	line "TOMBSTONER" 
+	line "TOMBSTONER," 
 	cont "brother?"
 	done
 
