@@ -127,7 +127,7 @@ MainMenu:
 InitOptions:
 	ld a, TEXT_DELAY_FAST
 	ld [wLetterPrintingDelayFlags], a
-	ld a, TEXT_DELAY_FAST
+	ld a, DEFAULT_OPTIONS
 	ld [wOptions], a
 	ret
 
@@ -583,7 +583,7 @@ DisplayOptionMenu:
 
 TextSpeedOptionText:
 	db   "TEXT SPEED"
-	next " VFAST  MEDIUM SLOW@"
+	next " FAST  MEDIUM SLOW@"
 
 BattleAnimationOptionText:
 	db   "BATTLE ANIMATION"
