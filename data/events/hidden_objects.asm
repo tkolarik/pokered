@@ -385,12 +385,12 @@ FuchsiaGymHiddenObjects:
 CinnabarGymHiddenObjects:
 	hidden_object 17, 13, SPRITE_FACING_UP, GymStatues
 	; third param: ([hGymGateAnswer] << 4) | [hGymGateIndex]
-	hidden_object 15,  7, (FALSE << 4) | 1, PrintCinnabarQuiz
-	hidden_object 10,  1, (TRUE  << 4) | 2, PrintCinnabarQuiz
-	hidden_object  9,  7, (TRUE  << 4) | 3, PrintCinnabarQuiz
+	hidden_object 15,  7, (FALSE << 4) | 1, PrintCinnabarQuiz ;Butterfree
+	hidden_object 10,  1, (TRUE  << 4) | 2, PrintCinnabarQuiz ;Number of badges
+	hidden_object  9,  7, (TRUE  << 4) | 3, PrintCinnabarQuiz ;
 	hidden_object  9, 13, (TRUE  << 4) | 4, PrintCinnabarQuiz
 	hidden_object  1, 13, (FALSE << 4) | 5, PrintCinnabarQuiz
-	hidden_object  1,  7, (TRUE  << 4) | 6, PrintCinnabarQuiz
+	hidden_object  1,  7, (FALSE << 4) | 6, PrintCinnabarQuiz ;Tomb stoner
 	db -1 ; end
 
 CinnabarPokecenterHiddenObjects:

@@ -28,6 +28,7 @@ VermilionGym_Script:
 	db "LT.SURGE@"
 
 VermilionGymSetDoorTile:
+	SetEvent EVENT_2ND_LOCK_OPENED
 	CheckEvent EVENT_2ND_LOCK_OPENED
 	jr nz, .doorsOpen
 	ld a, $24 ; double door tile ID
